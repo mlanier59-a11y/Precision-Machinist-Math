@@ -13,7 +13,7 @@ jobs:
       - name: Unpack project
         run: |
           mkdir project
-          unzip -q Precision_Machinist_Math_v1.0_rc1.zip -d project
+          unzip -q Precision_Machinist_Math_v1.0_RC1.zip -d project
 
       - name: Set up Java 17
         uses: actions/setup-java@v5
